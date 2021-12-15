@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreen_1"
+    tools:context=".SplashScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:animateLayoutChanges="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/app_logo_splash"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:transitionName="4logo"
+            android:background="@drawable/logo_app"/>
+
+        <TextView
+            android:id="@+id/splashschool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="School"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="42sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="16dp"
+        tools:context=".ui.classroom.DetailClassRoomActivity">
+
+        <TextView
+            android:id="@+id/tv_deadline_detail_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_light"
+            android:text="Date here"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_title_detail_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="TUGAS BRD BRD DER"
+            android:textColor="@color/BluePurple"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_point_detail_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="point"
+            android:textSize="12sp" />
+
+        <View
+            android:id="@+id/bottomlineclass"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/BluePurple" />
+
+        <TextView
+            android:id="@+id/tv_detail_detail_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Detail value"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt_attach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="attachment" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_files_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/row_files_selected" />
+
+        <LinearLayout
+            android:id="@+id/container_completedtask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bottom_sheet_bg"
+            android:visibility="gone"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingTop="16dp"
+                android:paddingHorizontal="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Completed task:"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/blackCharcoal"
+                android:textSize="12sp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_completedtask"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/row_memberclass_btmsheet" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/bottom_sheet_assignment" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

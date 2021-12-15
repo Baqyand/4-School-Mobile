@@ -1,0 +1,36 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#F4F4F4">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="#F8F8F8" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/background">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:aapt="http://schemas.android.com/aapt"
+            android:width="330dp"
+            android:height="50dp"
+            android:viewportWidth="330"
+            android:viewportHeight="50">
+            <path android:pathData="M10,0L320,0A10,10 0,0 1,330 10L330,40A10,10 0,0 1,320 50L10,50A10,10 0,0 1,0 40L0,10A10,10 0,0 1,10 0z">
+                <aapt:attr name="android:fillColor">
+                    <gradient
+                        android:endX="318.78"
+                        android:endY="25"
+                        android:startX="16.5"
+                        android:startY="25"
+                        android:type="linear">
+                        <item
+                            android:color="#FF7B7FF6"
+                            android:offset="0" />
+                        <item
+                            android:color="#FFB07BF6"
+                            android:offset="1" />
+                    </gradient>
+                </aapt:attr>
+            </path>
+        </vector>
+    </item>
+
+</ripple>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="@color/blackCharcoal">
+
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/location"
+            android:title="Maps"
+            app:cnb_backgroundColor="@color/BluePurple"
+            app:cnb_iconColor="@android:color/white"
+            app:cnb_textColor="@color/blackCharcoal"/>
+        <item
+            android:id="@+id/nav_jobs"
+            android:icon="@drawable/calendar"
+            android:title="@string/menu_jobs"
+            app:cnb_backgroundColor="@color/BluePurple"
+            app:cnb_iconColor="@android:color/white"
+            app:cnb_textColor="@color/blackCharcoal"/>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home"
+            app:cnb_backgroundColor="@color/BluePurple"
+            app:cnb_iconColor="@android:color/white"
+            app:cnb_textColor="@color/blackCharcoal" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/question"
+            android:title="@string/menu_help"
+            app:cnb_backgroundColor="@color/BluePurple"
+            app:cnb_iconColor="@android:color/white"
+            app:cnb_textColor="@color/blackCharcoal" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title="@string/menu_profil"
+            app:cnb_backgroundColor="@color/BluePurple"
+            app:cnb_iconColor="@android:color/white"
+            app:cnb_textColor="@color/blackCharcoal"/>
+</menu>

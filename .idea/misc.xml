@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/drawable-mdpi/home_background.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/drawable/ext_svg.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/drawable/user.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/about_item.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/activity_about.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/activity_class_room.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/activity_detail_class.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/activity_edit_profile.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/activity_forgot_password.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/activity_form_class_room.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/activity_login.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/activity_main.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/activity_register.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/activity_splash_screen.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/app_bar_main.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/bottom_sheet_assignment.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/dialog_select_picture.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/fragment_help.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/fragment_help_bottom_sheet.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/fragment_home.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/fragment_jobs_bottom_sheet.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/fragment_maps.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/fragment_profile.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/fragment_schedule.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/grid_item_schedule.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/help_item.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/item_home.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/list_task.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/nav_header_main.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/profile_content.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/row_class_list.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/row_files_selected.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/row_memberclass_btmsheet.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/row_schedule_bottom_sheet.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/settings_item.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/layout/spinner_type_style.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/4-School-master/app/src/main/res/menu/activity_main_drawer.xml" value="0.20833333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/row_class_card_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/content_main_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_top_home"
+            android:padding="12dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/shlevelclass_nav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="XII" />
+
+            <TextView
+                android:id="@+id/shinfoclass_nav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/poppins_light"
+                android:maxLines="2"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/logoapp_class_nav"
+                app:layout_constraintTop_toBottomOf="@+id/shlevelclass_nav"
+                tools:text="Rekayasa Perangkat Lunak 2" />
+
+            <ImageView
+                android:id="@+id/logoapp_class_nav"
+                android:layout_width="40dp"
+                android:layout_height="43dp"
+                android:src="@drawable/logo_app"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/shclass_count_member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:drawableLeft="@drawable/ic_people_double"
+                android:drawablePadding="8dp"
+                android:drawableTint="@android:color/white"
+                android:fontFamily="@font/poppins_light"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:background="@drawable/button_transparent_clickable"
+                android:clickable="true"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/shinfoclass_nav"
+                tools:text="36 members" />
+
+            <TextView
+                android:id="@+id/shclass_assignment_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/button_transparent_clickable"
+                android:clickable="true"
+                android:drawableLeft="@drawable/ic_assignment"
+                android:drawablePadding="8dp"
+                android:drawableTint="@android:color/white"
+                android:fontFamily="@font/poppins_light"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Assignment"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:layout_constraintLeft_toRightOf="@+id/shclass_count_member"
+                app:layout_constraintTop_toBottomOf="@+id/shinfoclass_nav" />
+
+            <ImageButton
+                android:id="@+id/btn_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_transparent_clickable"
+                android:padding="5dp"
+                android:src="@drawable/ic_outline_info"
+                android:tint="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/logoapp_class_nav"
+                app:layout_constraintVertical_bias="1.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/content_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/shtglclass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="12sp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="23 May" />
+
+            <TextView
+                android:id="@+id/shtasktheory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/blackCharcoal"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/shtglclass"
+                tools:text="Task :" />
+
+            <TextView
+                android:id="@+id/shtittleclass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/blackCharcoal"
+                android:textSize="18sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/shtasktheory"
+                tools:text="Latihan Soal Bab 2 Bagian B" />
+
+            <View
+                android:id="@+id/bottomlineclass"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="14dp"
+                android:background="#AAAAAA"
+                app:layout_constraintTop_toBottomOf="@+id/shtittleclass" />
+
+            <TextView
+                android:id="@+id/shcompletedtaskclass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="12sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bottomlineclass"
+                tools:text="16 Completed this task" />
+
+            <TextView
+                android:id="@+id/btn_checktaskclass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_transparent_clickable"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="3dp"
+                android:text="Check"
+                android:textAllCaps="false"
+                android:textColor="@color/blackCharcoal"
+                android:textSize="12sp"
+                android:layout_marginRight="32dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

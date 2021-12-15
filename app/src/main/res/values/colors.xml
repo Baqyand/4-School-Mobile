@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6f4a8e</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#7B7FF6</color>
+    <color name="colorUnguMuda">#5a3e77</color>
+    <color name="blackdefault">#4A4A4A</color>
+    <color name="SkyBlue">#7BD5F5</color>
+    <color name="BluePurple">#7B7FF6</color>
+    <color name="BlueishPurple">#B07BF6</color>
+    <color name="blackCharcoal">#4e4e4e</color>
+    <color name="blacktransparent">#9E4E4E4E</color>
+    <color name="transparent">#00000000</color>
+    <color name="whiteDefault">#FAFAFA</color>
+    <color name="grey">#F5F5F5</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#7BD5F5</color>
+</resources>

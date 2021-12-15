@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">4-School</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="nip">NIP</string>
+    <string name="register">Register</string>
+    <string name="you_need_account_register">You need account ? Register</string>
+    <string name="login">Login</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="nama_logo">Nama Logo</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="send">send</string>
+    <string name="email">Email</string>
+    <string name="tab1">About</string>
+    <string name="tab2">Settings</string>
+    <string name="title_name">Your name here</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_profil">Profile</string>
+    <string name="menu_jobs">Jobs</string>
+    <string name="menu_help">Help</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="schedule_titile">My Schedule</string>
+    <string name="CHANNEL_ID">4schoolFCM</string>
+    <string name="CHANNEL_NAME">4school</string>
+    <string name="CHANNEL_DESC">4schoolApps</string>
+    <string name="nis">NIS</string>
+</resources>
